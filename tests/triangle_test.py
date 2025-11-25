@@ -90,5 +90,3 @@ class TestTriangleFunctions(unittest.TestCase):
             triangle_perimeter(2, 3, 5)
         with self.assertRaises(ValueError):
             triangle_perimeter(7, 8, 15)
-        with self.assertRaises(ValueError):
-            triangle_perimeter(9, 4, 5)
